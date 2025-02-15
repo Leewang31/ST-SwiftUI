@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		831CDD702D610CE1000CE5CA /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CDD6F2D610CE1000CE5CA /* BadgeBackground.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		831CDD5A2D610BED000CE5CA /* DrawingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		831CDD6F2D610CE1000CE5CA /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		831CDD512D610BED000CE5CA = {
 			isa = PBXGroup;
 			children = (
+				831CDD6F2D610CE1000CE5CA /* BadgeBackground.swift */,
 				831CDD5C2D610BED000CE5CA /* DrawingAnimation */,
 				831CDD5B2D610BED000CE5CA /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831CDD702D610CE1000CE5CA /* BadgeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

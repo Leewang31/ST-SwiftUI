@@ -7,8 +7,13 @@ import CoreLocation // CoreLocation 프레임워크를 가져와 위치 데이�
  * Hashable → Swift의 컬렉션(Set, Dictionary)에서 활용할 수 있도록 해시 가능하게 설정.
  * Codable → JSON 데이터를 쉽게 인코딩/디코딩할 수 있도록 지원. (Encodable + Decodable)*
  */
-struct Landmark: Hashable, Codable {
-    var id: Int
+
+/**
+ * Identifiable은 Swift의 프로토콜로,
+ * Identifiable을 준수하면 SwiftUI가 데이터 항목을 자동으로 구분하고 관리할 수 있습니다.
+ */
+struct Landmark: Hashable, Codable, Identifiable {
+    var id: Int // Identifiable을 준수하려면 반드시 'id' 속성이 필요함
     var name: String
     var park: String
     var state: String

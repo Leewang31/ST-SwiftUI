@@ -20,6 +20,13 @@ struct Landmark: Hashable, Codable, Identifiable {
     var description: String
     var isFavorite: Bool // 좋아요 여부
 
+    var category: Category
+    enum Category: String, CaseIterable, Codable {
+        case lakes = "Lakes"
+        case rivers = "Rivers"
+        case mountains = "Mountains"
+    }
+
     private var imageName: String
     // SwiftUI의 Image 객체를 생성할 수 있음.
     var image: Image {

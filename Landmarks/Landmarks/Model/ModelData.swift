@@ -4,6 +4,7 @@ import Foundation
 class ModelData {
     var landmarks: [Landmark] = load("landmarkData.json") // landmarks 배열은 load 함수를 호출하여 "landmarkData.json" 파일의 데이터를 로드한 후, Landmark 배열로 변환
 
+    var hikes: [Hike] = load("hikeData.json")
 }
 
 

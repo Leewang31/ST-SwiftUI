@@ -6,17 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		831CDD702D610CE1000CE5CA /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CDD6F2D610CE1000CE5CA /* BadgeBackground.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		831CDD5A2D610BED000CE5CA /* DrawingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		831CDD6F2D610CE1000CE5CA /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		831CDDB72D61A726000CE5CA /* DrawingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		831CDD5C2D610BED000CE5CA /* DrawingAnimation */ = {
+		831CDDB92D61A726000CE5CA /* DrawingAnimation */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DrawingAnimation;
 			sourceTree = "<group>";
@@ -24,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		831CDD572D610BED000CE5CA /* Frameworks */ = {
+		831CDDB42D61A726000CE5CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,19 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		831CDD512D610BED000CE5CA = {
+		831CDDAE2D61A726000CE5CA = {
 			isa = PBXGroup;
 			children = (
-				831CDD6F2D610CE1000CE5CA /* BadgeBackground.swift */,
-				831CDD5C2D610BED000CE5CA /* DrawingAnimation */,
-				831CDD5B2D610BED000CE5CA /* Products */,
+				831CDDB92D61A726000CE5CA /* DrawingAnimation */,
+				831CDDB82D61A726000CE5CA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		831CDD5B2D610BED000CE5CA /* Products */ = {
+		831CDDB82D61A726000CE5CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				831CDD5A2D610BED000CE5CA /* DrawingAnimation.app */,
+				831CDDB72D61A726000CE5CA /* DrawingAnimation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		831CDD592D610BED000CE5CA /* DrawingAnimation */ = {
+		831CDDB62D61A726000CE5CA /* DrawingAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 831CDD682D610BEE000CE5CA /* Build configuration list for PBXNativeTarget "DrawingAnimation" */;
+			buildConfigurationList = 831CDDC52D61A728000CE5CA /* Build configuration list for PBXNativeTarget "DrawingAnimation" */;
 			buildPhases = (
-				831CDD562D610BED000CE5CA /* Sources */,
-				831CDD572D610BED000CE5CA /* Frameworks */,
-				831CDD582D610BED000CE5CA /* Resources */,
+				831CDDB32D61A726000CE5CA /* Sources */,
+				831CDDB42D61A726000CE5CA /* Frameworks */,
+				831CDDB52D61A726000CE5CA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				831CDD5C2D610BED000CE5CA /* DrawingAnimation */,
+				831CDDB92D61A726000CE5CA /* DrawingAnimation */,
 			);
 			name = DrawingAnimation;
 			packageProductDependencies = (
 			);
 			productName = DrawingAnimation;
-			productReference = 831CDD5A2D610BED000CE5CA /* DrawingAnimation.app */;
+			productReference = 831CDDB72D61A726000CE5CA /* DrawingAnimation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		831CDD522D610BED000CE5CA /* Project object */ = {
+		831CDDAF2D61A726000CE5CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					831CDD592D610BED000CE5CA = {
+					831CDDB62D61A726000CE5CA = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 831CDD552D610BED000CE5CA /* Build configuration list for PBXProject "DrawingAnimation" */;
+			buildConfigurationList = 831CDDB22D61A726000CE5CA /* Build configuration list for PBXProject "DrawingAnimation" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 831CDD512D610BED000CE5CA;
+			mainGroup = 831CDDAE2D61A726000CE5CA;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 831CDD5B2D610BED000CE5CA /* Products */;
+			productRefGroup = 831CDDB82D61A726000CE5CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				831CDD592D610BED000CE5CA /* DrawingAnimation */,
+				831CDDB62D61A726000CE5CA /* DrawingAnimation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		831CDD582D610BED000CE5CA /* Resources */ = {
+		831CDDB52D61A726000CE5CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -121,18 +115,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		831CDD562D610BED000CE5CA /* Sources */ = {
+		831CDDB32D61A726000CE5CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831CDD702D610CE1000CE5CA /* BadgeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		831CDD662D610BEE000CE5CA /* Debug */ = {
+		831CDDC32D61A728000CE5CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		831CDD672D610BEE000CE5CA /* Release */ = {
+		831CDDC42D61A728000CE5CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +244,7 @@
 			};
 			name = Release;
 		};
-		831CDD692D610BEE000CE5CA /* Debug */ = {
+		831CDDC62D61A728000CE5CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -280,7 +273,7 @@
 			};
 			name = Debug;
 		};
-		831CDD6A2D610BEE000CE5CA /* Release */ = {
+		831CDDC72D61A728000CE5CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -312,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		831CDD552D610BED000CE5CA /* Build configuration list for PBXProject "DrawingAnimation" */ = {
+		831CDDB22D61A726000CE5CA /* Build configuration list for PBXProject "DrawingAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				831CDD662D610BEE000CE5CA /* Debug */,
-				831CDD672D610BEE000CE5CA /* Release */,
+				831CDDC32D61A728000CE5CA /* Debug */,
+				831CDDC42D61A728000CE5CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		831CDD682D610BEE000CE5CA /* Build configuration list for PBXNativeTarget "DrawingAnimation" */ = {
+		831CDDC52D61A728000CE5CA /* Build configuration list for PBXNativeTarget "DrawingAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				831CDD692D610BEE000CE5CA /* Debug */,
-				831CDD6A2D610BEE000CE5CA /* Release */,
+				831CDDC62D61A728000CE5CA /* Debug */,
+				831CDDC72D61A728000CE5CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 831CDD522D610BED000CE5CA /* Project object */;
+	rootObject = 831CDDAF2D61A726000CE5CA /* Project object */;
 }

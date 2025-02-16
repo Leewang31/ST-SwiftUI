@@ -26,7 +26,14 @@ struct HikeView: View {
                 Spacer()
 
                 Button {
-                    showDetail.toggle()
+                    /**
+                     * 서서히 등장하기
+                     *  withAnimation(.easeInOut(duration: 4))
+                     *  옵션 추가 가능
+                     */
+                    withAnimation {
+                        showDetail.toggle()
+                    }
                 } label: {
                     Label("Graph", systemImage: "chevron.right.circle")
                         .labelStyle(.iconOnly)
